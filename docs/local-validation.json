@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-04",
+  "environment": "macOS local static checks",
+  "checks": {
+    "setup": "PASS: requirements.lock installed in local virtual environment",
+    "yaml_lint": "PASS",
+    "ansible_syntax": "PASS: 11 playbooks",
+    "vendor_sha256": "PASS: 5 files",
+    "shell_syntax": "PASS",
+    "unit_tests": "PASS: 90 tests",
+    "promtool": "PASS: Prometheus 3.13.3 config syntax, 7 rules, 3 rule scenarios in pinned container image"
+  },
+  "runtime_validation": {
+    "ubuntu_24_04_full_run": "NOT RUN for this copy",
+    "idempotency_repeat_run": "NOT RUN for this copy",
+    "post_reboot": "NOT RUN for this copy",
+    "external_http_via_gateway": "NOT RUN for this copy",
+    "prometheus_targets": "NOT RUN for this copy",
+    "fluentd_delivery": "NOT RUN for this copy"
+  }
+}
